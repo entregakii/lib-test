@@ -5,8 +5,7 @@ interface Props {
     text: string
 }
 
-const LibTest = ({ text }: Props) => {
+export const LibTest = ({ text }: Props) => {
     return <div>{text}</div>;
 }
 
-export default LibTest;

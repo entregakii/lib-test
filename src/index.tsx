@@ -1,10 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import { LibTest } from "./LibTest";
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
-);
-root.render(
-  <React.StrictMode>
-  </React.StrictMode>
-);
+export default {
+  LibTest
+}
